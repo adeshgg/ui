@@ -1280,6 +1280,36 @@ export function AppSidebar() {
 }
 ```
 
+## Sidebar Hover
+
+Use the `expandOnHover` prop to expand the sidebar on hover
+
+<figure className="mt-6 flex flex-col gap-4">
+  <ComponentPreview
+    name="sidebar-17"
+    title="Sidebar Hover"
+    type="block"
+    description="A sidebar that expand on hover"
+    className="w-full"
+  />
+  <figcaption className="text-center text-sm text-gray-500">
+    A sidebar that expand on hover.
+  </figcaption>
+</figure>
+
+```tsx showLineNumbers
+export function AppSidebar() {
+  // Update code later
+  const [open, setOpen] = React.useState(false)
+
+  return (
+    <SidebarProvider open={open} onOpenChange={setOpen}>
+      <Sidebar />
+    </SidebarProvider>
+  )
+}
+```
+
 ## Theming
 
 We use the following CSS variables to theme the sidebar.

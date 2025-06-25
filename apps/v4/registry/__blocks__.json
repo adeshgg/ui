@@ -85,6 +85,11 @@
     "categories": ["sidebar", "dashboard"]
   },
   {
+    "name": "sidebar-07",
+    "description": "A sidebar that expands on hover.",
+    "categories": ["sidebar", "dashboard"]
+  },
+  {
     "name": "login-01",
     "description": "A simple login form.",
     "categories": ["authentication", "login"]
